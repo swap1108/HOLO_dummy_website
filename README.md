@@ -6,5 +6,6 @@ Please follow the instruction:
 ### 1. Just download the complete folder and run the index.html in your browser
 ### 2. The folder structure is quite simple! 
 ### 3. If you want to run it in your server, simply put the folder in your server.
+Tech Stack: html, css, bootstrap, javascript
 
   By Swapnil Sourabh
