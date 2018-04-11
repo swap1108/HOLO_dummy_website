@@ -1,0 +1,262 @@
+/* navbar */
+body { background: #E2E9EE !important; }
+html,body{
+   height:100%;
+}
+.carousel,.item,.active{
+   height:90%;
+ }
+.carousel-inner{
+    height:100%;
+}
+
+.carousel-content {
+  position: absolute;
+      top: 25%;
+      left: 0;
+      right: 0;
+      bottom: 0;
+  align-items: center;
+  align-self: center;
+  font-weight: bold;
+
+
+  z-index: 1;
+  color: white;
+  font-size: 70px;
+  text-shadow: 0 1px 2px rgba(0,0,0,.6);
+
+}
+.affix {
+      top: 0;
+      width: 100%;
+      z-index: 9999 !important;
+  }
+.fonts{
+    font-size: 40px;
+}
+
+.font2{
+    font-size: 20px;
+}
+.font3{
+    font-size: 40px;
+}
+.heading{
+    font-size: 35px;
+}
+.heading1{
+    font-size: 25px;
+}
+.navbar-default {
+    background:#F5F6F7;
+	border-bottom: #7BC4FB 3px solid;
+    margin-bottom: 0;
+}
+ #map {
+        height: 400px;
+        width: 100%;
+       }
+
+/* Title */
+.navbar-default .navbar-brand {
+    font-size: 35px;
+    margin-top: 0px;
+    margin-bottom: 8px;
+   
+}
+.brand{
+    font-size: 35px;
+}
+/*.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #ffffff;
+}*/
+.navbar-default .navbar-nav > li > a {
+    /*color: #ffffff;*/
+    margin: 20px;
+    font-family: calibri;
+    font-size: 17px;
+    font-weight: bold;
+    
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+
+    color:  #7BC4FB;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #7BC4FB;
+    border-radius: 20px;
+    background: white;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #ffffff;
+    background: #35424a;
+}
+.navbar-default .navbar-nav > .dropdown > a .caret {
+    border-top-color: #777;
+    border-bottom-color: #777;
+}
+
+.navbar-default .navbar-nav > .dropdown > a:hover .caret,
+.navbar-default .navbar-nav > .dropdown > a:focus .caret {
+    border-top-color: #333;
+    border-bottom-color: #333;
+}
+.navbar-default .navbar-nav > .open > a .caret,
+.navbar-default .navbar-nav > .open > a:hover .caret,
+.navbar-default .navbar-nav > .open > a:focus .caret {
+    border-top-color: #555;
+    border-bottom-color: white;
+}
+/* Mobile version */
+
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: grey;
+}
+.navbar-default .navbar-toggle .icon-bar:hover{
+    background-color: grey;
+}
+
+.navbar-inverse {
+	color: white;
+}
+
+
+.jumbotron{
+	background-color: grey;
+ 	background-blend-mode: soft-light;
+ 	background-image: url(../images/show-copy.jpg) ;
+ 	background-size: cover;
+ 	color: white;
+	/*margin-top: 100px;*/
+	height: 100%;
+	width: 100%;
+	border-bottom: 3px solid #e8491d;
+	border-top: 4px solid #e8491d;
+}
+.jumbotron h1{
+	font-weight: bold;
+	text-align: center;
+}
+.jumbotron h4{
+	text-align: center;
+}
+
+    .image1{
+        align-self: left;
+    }
+
+.para1{
+    font-size:18px;
+}
+
+.button{
+    border-color: red;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #7BC4FB;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+
+.col-sm-4:hover .overlay {
+  width: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+
+@media screen and (max-width: 480px) {
+.jumbotron{
+    background-size: cover;
+    margin-left: 0px;
+    width: 100%;}
+.para1{
+    font-size: 13px;
+}
+.heading{
+    font-size: 25px;
+}
+
+.navbar-default .navbar-brand  {
+  
+    font-size: 20px;
+    margin-left: 1px;
+    margin-top: 0px;
+    margin-bottom: 8px;  
+}
+.brand{
+    font-size: 20px;
+}
+.carousel-content {
+    top: 30%;
+  font-size: 20px;
+
+
+}
+.heading1{
+    font-size: 20px;
+}
+.fonts{
+    font-size: 12px;
+}
+.heading{
+    font-size: 20px;
+}
+.carousel,.item,.active{
+   height:auto;
+ }
+.carousel-inner{
+    height:auto;
+}
+.font2{
+    font-size: 12px;
+}
+.font3{
+    font-size: 30px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
