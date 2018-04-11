@@ -1,5 +1,6 @@
 
-![alt text](https://raw.githubusercontent.com/swap1108/HOLO_dummy_website/master/images/logo3.jpg)  # HOLO_dummy_website
+![alt text](https://raw.githubusercontent.com/swap1108/HOLO_dummy_website/master/images/logo3.jpg)  
+# HOLO_dummy_website
 ## Holo is a tourism themed website. It aims to be your travel assistant with travel services and blogs.
 Please follow the instruction:
 ### 1. Just download the complete folder and run the index.html in your browser
